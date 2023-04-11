@@ -40,6 +40,8 @@ border: none;
 const Center = styled.div`
   flex: 1;
   text-align: center;
+  justify-content: center;
+  display: flex;
 `;
 const Logo = styled.h1`
 font-weight: bold;
@@ -68,7 +70,7 @@ const Navbar = () => {
             <Search style={{color:"gray", fontSize:16}}/>
           </SearchContainer>
         </Left>
-        <Center><Logo>Shopcart</Logo></Center>
+        <Center><span><img src="https://img.favpng.com/1/16/21/shopping-cart-computer-icons-symbol-png-favpng-niBgzRb1n41tdmtC4CXMTqnNq.jpg" alt="logo" style={{width:"40px",height:"35px",marginRight:"0px",borderRadius:"100%"}}/></span><Logo>Shopcart</Logo></Center>
         <Right>
           <MenuItem>Register</MenuItem>
           <MenuItem>SignIn</MenuItem>
