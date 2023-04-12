@@ -5,8 +5,7 @@ import ShoppingCartCheckoutOutlinedIcon from '@mui/icons-material/ShoppingCartCh
 import { Badge } from '@mui/material';
 
 const Container = styled.div`
-  height: 60px;
-  background-color: #;
+  height: 50px;
 `;
 const Wrapper = styled.div`
   padding: 10px 20px;
@@ -31,6 +30,7 @@ display: flex;
 align-items: center;
 margin-left: 25px;
 padding: 5px;
+
 
 `
 const Input = styled.input`

@@ -5,7 +5,7 @@ import ArrowRightOutlined from '@mui/icons-material/ArrowRightOutlined';
 import {sliderItems} from '../slideData';
 const Container = styled.div`
   width: 100%;
-  height: 100vh;
+  height: 80vh;
   display: flex;
   overflow:hidden;
   position: relative;
@@ -53,8 +53,7 @@ const ImgContainer = styled.div`
 
 const Image = styled.img`
   height: 80%;
-  border-radius: 1%;
-  margin-top:15px;
+  border-radius: 3px;
   margin-left: 150px;
 `;
 
